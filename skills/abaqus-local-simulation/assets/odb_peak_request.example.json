@@ -1,0 +1,18 @@
+{
+  "mode": "peak",
+  "odb": "D:/ai_abaqus/NEW_AUTHORIZED_PROJECT/MY_NEW_ANALYSIS_X/MY_NEW_ANALYSIS_X.odb",
+  "step": "Compression",
+  "history_regions": ["Node ASSEMBLY.100001"],
+  "axis": "X",
+  "solver": "standard",
+  "rules": {
+    "confirmed_drop": 0.05,
+    "screen_drop": 0.02,
+    "stable_drop": 0.005,
+    "stable_points": 30,
+    "minimum_postpeak_points": 3,
+    "displacement_tolerance": 1e-10
+  },
+  "fields": ["DAMAGEC", "DAMAGET", "PEEQ", "SDEG", "QUADSCRT", "CSDMG", "CSQUADSCRT", "CPRESS", "CSHEAR", "CSLIP", "COPEN", "SDV"],
+  "require_stabilization_energy": false
+}

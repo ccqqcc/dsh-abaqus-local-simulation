@@ -1,0 +1,15 @@
+{
+  "job": "MY_NEW_ANALYSIS_X",
+  "input": "D:/ai_abaqus/NEW_AUTHORIZED_PROJECT/MY_NEW_ANALYSIS_X/MY_NEW_ANALYSIS_X.inp",
+  "workdir": "D:/ai_abaqus/NEW_AUTHORIZED_PROJECT/MY_NEW_ANALYSIS_X",
+  "scratch": "H:/ABAQUS_AGENT_SCRATCH/MY_NEW_ANALYSIS_X",
+  "solver": "standard",
+  "operation": "analysis",
+  "cpus": 2,
+  "memory_mb": 2048,
+  "additional_files": [],
+  "walltime_limit_seconds": 5400,
+  "terminate_at_walltime": false,
+  "stop_after_confirmed_peak": false,
+  "probe_interval_seconds": 60
+}

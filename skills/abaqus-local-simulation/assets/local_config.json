@@ -1,0 +1,15 @@
+{
+  "abaqus_launcher": "D:/SIMULIA/Commands/abaqus.bat",
+  "allowed_roots": ["D:/ai_abaqus", "H:/STAGE7_20261003", "H:/ABAQUS_AGENT_SCRATCH"],
+  "registry_dir": "D:/ai_abaqus/agent_integrations/abaqus_runtime",
+  "scratch_roots": ["H:/ABAQUS_AGENT_SCRATCH"],
+  "max_total_cpus": 32,
+  "max_concurrent": 16,
+  "max_total_memory_mb": 49152,
+  "min_free_disk_bytes": 8589934592,
+  "probe_timeout_seconds": 90,
+  "compiler_candidates": [
+    "D:/anaconda3/pkgs/ifx_impl_win-64-2025.3.1-intel_761/Library/bin/ifx.exe",
+    "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+  ]
+}

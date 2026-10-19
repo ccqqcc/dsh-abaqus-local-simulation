@@ -1,0 +1,7 @@
+# DSH bundle layer: mount the host plugin that registers the bundled
+# abaqus-local-simulation skill and advertises it to the model/human catalog.
+# The skill's Python CLI/MCP backend lives under skills/abaqus-local-simulation
+# and is invoked through the skill instructions; no extra Node services are required.
+- insert:
+    - id: abaqus-local-simulation
+      name: dsh-abaqus-local-simulation

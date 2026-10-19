@@ -1,0 +1,129 @@
+{
+  "name": "abaqus-local-simulation",
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 358,
+      "sha256": "e83883e0e001542c053a4abd5f3a71767f7566460139e8d84928c9084622acbd"
+    },
+    {
+      "path": "assets/job_request.example.json",
+      "bytes": 500,
+      "sha256": "fea24f850cd42bffa46640f1b21d92b0a8ed81211c12828bac0fb821552c2a8d"
+    },
+    {
+      "path": "assets/local_config.json",
+      "bytes": 640,
+      "sha256": "ce5338667636eacbbccfbe643eb281ba09820218e37a8bf387813dd9fff6f27e"
+    },
+    {
+      "path": "assets/mcp_client.local.example.json",
+      "bytes": 327,
+      "sha256": "09b39b08bde5887b89577b8125d67ecc60050cce04a852dd639907c9bcf2b00e"
+    },
+    {
+      "path": "assets/odb_peak_request.example.json",
+      "bytes": 585,
+      "sha256": "d018e3b13a14b78700ea5d0a81bec5e24bb15593288a7181877a5b55eb3ef43c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1328,
+      "sha256": "aee9c538fa2a8c930acf664340c65cbba3e317e94bd2135c4df813b5b2294ca2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8530,
+      "sha256": "1be07b4c8c8f728cfc1ba239b493ed0ee145aaa83cadb34d470012ab8fcac8cd"
+    },
+    {
+      "path": "references/ABAQUS_CALLING_HANDBOOK.md",
+      "bytes": 18089,
+      "sha256": "de6d74dbaa317c2cdd1fc8e041ec69d5c8fad248ea7e37854bd18d99e7c6ffac"
+    },
+    {
+      "path": "references/PROJECT_CONTRACT.md",
+      "bytes": 2484,
+      "sha256": "4d851d870741d46c6135292737a21c5188ead1d412bda4f9fab91c836c768671"
+    },
+    {
+      "path": "references/TROUBLESHOOTING.md",
+      "bytes": 4404,
+      "sha256": "b0e744072bb3645df51f206a7f7d19ad8834b53ad3b7db9acfcd6aa28f6e33f1"
+    },
+    {
+      "path": "references/USER_SUBROUTINES.md",
+      "bytes": 5065,
+      "sha256": "0dad8103bc86ef8d9588c17cb4f62b8354144fb25700c0e2ccd9d5bc8831c0c3"
+    },
+    {
+      "path": "scripts/abaqus_agent.py",
+      "bytes": 30790,
+      "sha256": "13946ef352aaed71042515b487530023fe7d683d7ee0d6075a930ad677f8c069"
+    },
+    {
+      "path": "scripts/build_package.py",
+      "bytes": 2654,
+      "sha256": "0ad381281c33fda139128c781693182a2be6ae09a741b75f7d3cb6ed172b4403"
+    },
+    {
+      "path": "scripts/history_peak.py",
+      "bytes": 4277,
+      "sha256": "be9d9bd9c5a3f770a79d24945e914764afd3f0ef4bfbe2ebe96b30a76053fabc"
+    },
+    {
+      "path": "scripts/job_worker.py",
+      "bytes": 5909,
+      "sha256": "542997ea943fe497737e05a1ebd249893241b210779917c7fa77e38a877e1730"
+    },
+    {
+      "path": "scripts/mcp_server.py",
+      "bytes": 11799,
+      "sha256": "41a4b60c11e6c57e391eebc4884b6324c85a68fd0e75055e961598f728315260"
+    },
+    {
+      "path": "scripts/odb_probe.py",
+      "bytes": 11219,
+      "sha256": "8c90bde7d0a05022077eee197c4d764673012afa8d8813ce51f3a803a17fd734"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5509,
+      "sha256": "81216bfc710eb423029875d123c844e04aef9a0e89abfb59543ef85bce4a06aa"
+    },
+    {
+      "path": "tests/test_bridge.py",
+      "bytes": 19375,
+      "sha256": "1f35c5e39c37991914398fe4ca689c25366d7a00d680bf2f7050abe82de2faab"
+    },
+    {
+      "path": "validation/real_odb_inventory_request.json",
+      "bytes": 77,
+      "sha256": "fcb1bbabd292403aaaa57cd2d833ff91588f547138229dab942904609553775a"
+    },
+    {
+      "path": "validation/RESULTS.json",
+      "bytes": 62260,
+      "sha256": "9bbda375df9fe2b8856486801a7aef32838070ff555ed8597dbfbe3cc771af83"
+    },
+    {
+      "path": "validation/run_validation.py",
+      "bytes": 5318,
+      "sha256": "1d3eeff4b5e547c6f0ebac0a72a20797261b1edb2bd9c88d6301255b3470b164"
+    },
+    {
+      "path": "VALIDATION_REPORT.md",
+      "bytes": 6333,
+      "sha256": "7c4745b069aad8ad50470aca6ac724e062808e6b65384a52beb7349977faecc9"
+    }
+  ],
+  "solver_binaries_included": false,
+  "model_or_odb_included": false,
+  "interfaces": [
+    "Skill",
+    "CLI",
+    "local stdio MCP"
+  ],
+  "license": "MIT for newly authored bridge only"
+}

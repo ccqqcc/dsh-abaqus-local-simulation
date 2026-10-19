@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "abaqus-local-simulation": {
+      "command": "D:/anaconda3/python.exe",
+      "args": [
+        "C:/Users/21050/.codex/skills/abaqus-local-simulation/scripts/mcp_server.py",
+        "--config",
+        "C:/Users/21050/.codex/skills/abaqus-local-simulation/assets/local_config.json"
+      ]
+    }
+  }
+}

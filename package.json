@@ -1,0 +1,42 @@
+{
+  "name": "dsh-abaqus-local-simulation",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness plugin that bundles the abaqus-local-simulation skill: audited local Windows Abaqus/Standard or Explicit submission, dependency plans, process-aware monitoring, restart evidence and read-only ODB peak extraction, exposed through a stdlib-only CLI and local stdio MCP.",
+  "author": "ai_abaqus project",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "abaqus",
+    "finite-element",
+    "fem",
+    "simulation",
+    "skill"
+  ],
+  "type": "module",
+  "main": "./plugin/index.mjs",
+  "exports": {
+    ".": "./plugin/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "plugin",
+    "skills",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "echo \"abaqus-local-simulation ships Python CLI/MCP tests; run validation/run_validation.py with the configured Python\""
+  },
+  "engines": {
+    "node": ">=22",
+    "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+  }
+}

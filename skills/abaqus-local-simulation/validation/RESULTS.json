@@ -1,0 +1,1307 @@
+{
+  "time_utc": "2026-10-19T03:11:29.020675+00:00",
+  "analysis_jobs_submitted": 0,
+  "analysis_jobs_terminated": 0,
+  "old_model_files_modified": false,
+  "unit_tests": {
+    "run": 49,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "log": "test_stdio_lifecycle_tools_and_guard (test_bridge.MCPProtocol.test_stdio_lifecycle_tools_and_guard) ... ok\ntest_bad_rule_order_rejected (test_bridge.Peaks.test_bad_rule_order_rejected) ... ok\ntest_duplicate_points_invalid (test_bridge.Peaks.test_duplicate_points_invalid) ... ok\ntest_endpoint_never_peak (test_bridge.Peaks.test_endpoint_never_peak) ... ok\ntest_higher_new_endpoint_invalidates_old_peak (test_bridge.Peaks.test_higher_new_endpoint_invalidates_old_peak) ... ok\ntest_no_displacement_progress (test_bridge.Peaks.test_no_displacement_progress) ... ok\ntest_nonfinite_rejected (test_bridge.Peaks.test_nonfinite_rejected) ... ok\ntest_postpeak_response_not_peak_lower_bound (test_bridge.Peaks.test_postpeak_response_not_peak_lower_bound) ... ok\ntest_screen_two_not_strict (test_bridge.Peaks.test_screen_two_not_strict) ... ok\ntest_stable_needs_half_percent (test_bridge.Peaks.test_stable_needs_half_percent) ... ok\ntest_stable_needs_thirty (test_bridge.Peaks.test_stable_needs_thirty) ... ok\ntest_stable_thirty (test_bridge.Peaks.test_stable_thirty) ... ok\ntest_strict_five_percent (test_bridge.Peaks.test_strict_five_percent) ... ok\ntest_unordered_time_rejected (test_bridge.Peaks.test_unordered_time_rejected) ... ok\ntest_unpaired_points_invalid (test_bridge.Peaks.test_unpaired_points_invalid) ... ok\ntest_all_windows_arguments_quoted (test_bridge.Plans.test_all_windows_arguments_quoted) ... ok\ntest_bad_cpus_rejected (test_bridge.Plans.test_bad_cpus_rejected) ... ok\ntest_bad_job_shell_injection (test_bridge.Plans.test_bad_job_shell_injection) ... ok\ntest_changed_plan_never_launches (test_bridge.Plans.test_changed_plan_never_launches) ... ok\ntest_command_metacharacters_rejected (test_bridge.Plans.test_command_metacharacters_rejected) ... ok\ntest_cyclic_include_rejected (test_bridge.Plans.test_cyclic_include_rejected) ... ok\ntest_datacheck_supported_without_executing (test_bridge.Plans.test_datacheck_supported_without_executing) ... ok\ntest_explicit_command_precision_domains (test_bridge.Plans.test_explicit_command_precision_domains) ... ok\ntest_explicit_solver_mismatch_rejected (test_bridge.Plans.test_explicit_solver_mismatch_rejected) ... ok\ntest_include_escape_rejected (test_bridge.Plans.test_include_escape_rejected) ... ok\ntest_material_mutation_changes_token (test_bridge.Plans.test_material_mutation_changes_token) ... ok\ntest_missing_include_rejected (test_bridge.Plans.test_missing_include_rejected) ... ok\ntest_missing_restart_state_not_submitted (test_bridge.Plans.test_missing_restart_state_not_submitted) ... ok\ntest_mocked_submit_writes_only_own_registry (test_bridge.Plans.test_mocked_submit_writes_only_own_registry) ... ok\ntest_no_submit_without_authorization (test_bridge.Plans.test_no_submit_without_authorization) ... ok\ntest_odb_overwrite_rejected (test_bridge.Plans.test_odb_overwrite_rejected) ... ok\ntest_outside_roots_rejected (test_bridge.Plans.test_outside_roots_rejected) ... ok\ntest_pid_reuse_not_running (test_bridge.Plans.test_pid_reuse_not_running) ... ok\ntest_plan_reads_only (test_bridge.Plans.test_plan_reads_only) ... ok\ntest_probe_errors_are_not_success (test_bridge.Plans.test_probe_errors_are_not_success) ... ok\ntest_provisional_not_automatically_usable (test_bridge.Plans.test_provisional_not_automatically_usable) ... ok\ntest_relative_path_rejected (test_bridge.Plans.test_relative_path_rejected) ... ok\ntest_restart_inventory_not_verification (test_bridge.Plans.test_restart_inventory_not_verification) ... ok\ntest_scratch_nonempty_rejected (test_bridge.Plans.test_scratch_nonempty_rejected) ... ok\ntest_stale_lock_not_deleted (test_bridge.Plans.test_stale_lock_not_deleted) ... ok\ntest_tools_reject_unknown_extra_arguments (test_bridge.Plans.test_tools_reject_unknown_extra_arguments) ... ok\ntest_unknown_job_cannot_be_terminated (test_bridge.Plans.test_unknown_job_cannot_be_terminated) ... ok\ntest_unknown_live_solver_blocks (test_bridge.Plans.test_unknown_live_solver_blocks) ... ok\ntest_current_windows_process_identity (test_bridge.Workers.test_current_windows_process_identity) ... ok\ntest_datacheck_error_not_masked_by_completed_launcher (test_bridge.Workers.test_datacheck_error_not_masked_by_completed_launcher) ... ok\ntest_input_changed_after_submit_blocks_worker (test_bridge.Workers.test_input_changed_after_submit_blocks_worker) ... ok\ntest_mocked_worker_finishes_with_raw_marker (test_bridge.Workers.test_mocked_worker_finishes_with_raw_marker) ... ok\ntest_walltime_with_authority_requests_exact_job_only (test_bridge.Workers.test_walltime_with_authority_requests_exact_job_only) ... ok\ntest_walltime_without_authority_never_terminates (test_bridge.Workers.test_walltime_without_authority_never_terminates) ... ok\n\n----------------------------------------------------------------------\nRan 49 tests in 1.280s\n\nOK\n"
+  },
+  "doctor": {
+    "schema_version": "1.0",
+    "host": "Windows",
+    "launcher": "D:\\SIMULIA\\Commands\\abaqus.bat",
+    "launcher_exists": true,
+    "python": "D:\\anaconda3\\python.exe",
+    "hardware": {
+      "physical_cores": 32,
+      "logical_processors": 64,
+      "ram_bytes": 68603117568,
+      "last_boot": "2026-10-19T09:05:44.5000000+08:00"
+    },
+    "solver_processes": [],
+    "scratch_disks": [
+      {
+        "path": "H:\\ABAQUS_AGENT_SCRATCH",
+        "free_bytes": 85884952576,
+        "total_bytes": 104858644480
+      }
+    ],
+    "registry": "D:\\ai_abaqus\\agent_integrations\\abaqus_runtime",
+    "configured_limits": {
+      "max_total_cpus": 32,
+      "max_concurrent": 16,
+      "max_total_memory_mb": 49152
+    },
+    "license_availability": "UNVERIFIED: release/ODB access does not prove analysis license checkout",
+    "subroutine_tools": [
+      {
+        "path": "D:/anaconda3/pkgs/ifx_impl_win-64-2025.3.1-intel_761/Library/bin/ifx.exe",
+        "exists": true
+      },
+      {
+        "path": "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe",
+        "exists": true
+      }
+    ],
+    "no_solver_submitted": true,
+    "release_query": {
+      "returncode": 0,
+      "stdout": "Abaqus JOB abaqus\nAbaqus 2023\nAbaqus Site ID: \nAbaqus is located in the directory D:\\SIMULIA\\EstProducts\\2023 D:\\SIMULIA\\EstProducts\\2023\\win_b64 D:\\SIMULIA\\EstProducts\\2023\\win_b64\\code D:\\SIMULIA\\EstProducts\\2023\\win_b64\\code\\bin D:\\SIMULIA\\EstProducts\\2023\\win_b64\\code\\bin\\SMAExternal D:\\SIMULIA\\EstProducts\\2023\\win_b64\\CAEresources D:\\SIMULIA\\EstProducts\\2023\\win_b64\\SMA\nSequence Information:\n    D:\\SIMULIA\\EstProducts\\2023\\win_b64: 2022_09_29-02.11.55 183150\nThe Abaqus information files are located in the directory D:\\SIMULIA\\EstProducts\\2023\\win_b64\\SMA\\info\n\n        Release Notes and Installation & Licensing User Assistance\n \n   The Release Notes and the installation user assistance are accessible\n   from the SIMULIA Established Products documentation.\n   They are also accessible at http://help.3ds.com.\n   Select the SIMULIA Version for this release, then select\n   the SIMULIA Established Products link and click on the section\n   on the left. The Release Notes can be found under Abaqus > Release Notes.\n   Abaqus installation and licensing information is available\n   under Installation, Licensing & Configuration.\n \n   The list of supported platforms and other system requirements is given\n   in the Dassault Systemes Program Directory. The Program Directory is\n   additional documentation, similar to release notes, available at\n   http://media.3ds.com/support/progdir. Choose SIMULIA as the\n   product line and the appropriate level, then choose\n   Prerequisites in the left-hand pane. A support contract and private\n   login account are required for access.\n \n   \n Abaqus JOB abaqus COMPLETED\n",
+      "stderr": ""
+    }
+  },
+  "real_odb_tests": [
+    {
+      "path": "H:\\STAGE7_20261003\\S7_E1_X\\S7_E1_X.odb",
+      "sha256_before": "921e532488155b7aefa6c1132e0116857cc3c083b64c549342aadc22b62c90b0",
+      "sha256_after": "921e532488155b7aefa6c1132e0116857cc3c083b64c549342aadc22b62c90b0",
+      "unchanged": true,
+      "transport": "MCP stdio with actual Abaqus Python child",
+      "inventory": {
+        "read_only": true,
+        "odb": "H:\\STAGE7_20261003\\S7_E1_X\\S7_E1_X.odb",
+        "steps": [
+          {
+            "frames": 13,
+            "history_regions": [
+              {
+                "outputs": [
+                  "ALLAE",
+                  "ALLDMD",
+                  "ALLFD",
+                  "ALLIE",
+                  "ALLKE",
+                  "ALLPD",
+                  "ALLSE",
+                  "ALLVD",
+                  "ALLWK",
+                  "ETOTAL"
+                ],
+                "name": "Assembly Assembly-1"
+              },
+              {
+                "outputs": [
+                  "RF1",
+                  "RF2",
+                  "RF3",
+                  "RM1",
+                  "RM2",
+                  "RM3"
+                ],
+                "name": "Node PART-1-1.9707"
+              },
+              {
+                "outputs": [
+                  "RF1",
+                  "RF2",
+                  "RF3",
+                  "RM1",
+                  "RM2",
+                  "RM3",
+                  "U1",
+                  "U2",
+                  "U3",
+                  "UR1",
+                  "UR2",
+                  "UR3"
+                ],
+                "name": "Node PART-1-1.9712"
+              }
+            ],
+            "name": "COMPRESSION",
+            "latest_field_keys": [
+              "COPEN    General_Contact_Domain",
+              "CPRESS     General_Contact_Domain",
+              "CSDMG General_Contact_Domain",
+              "CSHEARMAG  General_Contact_Domain",
+              "CSLIP1   General_Contact_Domain",
+              "CSLIP2   General_Contact_Domain",
+              "CSLIPEQ  General_Contact_Domain",
+              "CSQUADSCRT General_Contact_Domain",
+              "CSTATUS  General_Contact_Domain",
+              "DAMAGEC",
+              "PEEQ",
+              "U",
+              "UR"
+            ]
+          }
+        ],
+        "evidence_path": "D:\\ai_abaqus\\agent_integrations\\abaqus_runtime\\probe-22fc2046150e4bc78a63b165ac903d84-result.json",
+        "launcher_returncode": 0
+      },
+      "peak": {
+        "latest_U": 0.13651329278945923,
+        "peak_field_time": 0.00800003670156002,
+        "nonfinite": 0,
+        "screen_confirmed": true,
+        "history_regions": [
+          "Node PART-1-1.9712"
+        ],
+        "friction_contribution": "NOT_SEPARATED_BY_THIS_GENERIC_PROBE",
+        "candidate_time": 0.008360021747648716,
+        "available_energy_regions": [
+          "Assembly Assembly-1"
+        ],
+        "displacement_continues": true,
+        "force_aggregation": "abs(sum signed RF)",
+        "odb": "H:\\STAGE7_20261003\\S7_E1_X\\S7_E1_X.odb",
+        "stable_supported": true,
+        "axis": "X",
+        "read_only": true,
+        "peak_status": "PEAK_VALID",
+        "postpeak_drop": 0.41686492910959283,
+        "field_requests_unavailable": [],
+        "energy_region": "Assembly Assembly-1",
+        "duplicate_points": 0,
+        "usable_peak": true,
+        "latest_time": 0.012000074610114098,
+        "provisional_requires_explicit_use_policy": true,
+        "U_peak": 0.06979730725288391,
+        "candidate_index": 1672,
+        "quality_reasons": [],
+        "area_fractions": "NOT_COMPUTED_REQUIRES_GEOMETRIC_WEIGHTS",
+        "unexpected_unpaired": 0,
+        "energy_keys": [
+          "ALLAE",
+          "ALLDMD",
+          "ALLIE",
+          "ALLKE",
+          "ALLVD",
+          "ETOTAL"
+        ],
+        "paired_points": 2401,
+        "negative_tail_trend": true,
+        "step": "COMPRESSION",
+        "strict_confirmed": true,
+        "RF_peak": 57818.39453125,
+        "peak_field_time_offset": 0.0003599850460886955,
+        "latest_RF": 33812.0546875,
+        "field_summary": {
+          "CSDMG General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 0.0,
+            "max": 0.880185067653656,
+            "p95": 0.8264920711517334,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 0.30120954831599156
+          },
+          "DAMAGEC": {
+            "count": 8000,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 0.0,
+            "max": 0.27319228649139404,
+            "p95": 0.21697611212730405,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 0.12888248857459167
+          },
+          "CSHEARMAG  General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 0.0,
+            "max": 18.165781021118164,
+            "p95": 12.86653904914856,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 7.628238933550657
+          },
+          "CPRESS     General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 1.3063011169433594,
+            "max": 73.88041687011719,
+            "p95": 50.17042942047119,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 27.654867605115637
+          },
+          "CSLIP2   General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": -0.0031121238134801388,
+            "max": 0.0032079368829727173,
+            "p95": 0.0004650068454793654,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": -1.6782422370060759e-06
+          },
+          "CSLIPEQ  General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 0.0,
+            "max": 0.004567091353237629,
+            "p95": 0.0015633036848157627,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 0.0002662281079173847
+          },
+          "CSQUADSCRT General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 0.0,
+            "max": 1.0,
+            "p95": 1.0,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 0.5003790394333056
+          },
+          "CSLIP1   General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": -0.003112947102636099,
+            "max": 0.0027769224252551794,
+            "p95": 0.0006455705268308505,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": -8.307586275375713e-06
+          },
+          "PEEQ": {
+            "count": 8000,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 0.0,
+            "max": 0.0006237374618649483,
+            "p95": 0.00044674451492028307,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 0.00025214224075434367
+          }
+        },
+        "candidate_RF": 57818.39453125,
+        "unordered_points": 0,
+        "postpeak_tail_slope": -369153.73398707417,
+        "candidate_U": 0.06979730725288391,
+        "postpeak_points": 728,
+        "energy_ratios": {
+          "ALLKE": {
+            "at_peak": 8.822174637348715e-06,
+            "scope": "RF >= 20 percent candidate; includes postpeak; linear energy interpolation only",
+            "evaluated_points": 1659,
+            "unavailable_points": 0,
+            "max": 0.00025718128745467556
+          },
+          "ALLVD": {
+            "at_peak": 0.0005461795258680124,
+            "scope": "RF >= 20 percent candidate; includes postpeak; linear energy interpolation only",
+            "evaluated_points": 1659,
+            "unavailable_points": 0,
+            "max": 0.11965648918248505
+          },
+          "ALLAE": {
+            "at_peak": 0.0027117259712553187,
+            "scope": "RF >= 20 percent candidate; includes postpeak; linear energy interpolation only",
+            "evaluated_points": 1659,
+            "unavailable_points": 0,
+            "max": 0.004378119487735994
+          }
+        },
+        "energy_admissible": true,
+        "evidence_path": "D:\\ai_abaqus\\agent_integrations\\abaqus_runtime\\probe-51691f0193ec4092a2c0344542f744d6-result.json",
+        "launcher_returncode": 0
+      }
+    },
+    {
+      "path": "H:\\STAGE7_20261003\\S7_E2_X\\S7_E2_X.odb",
+      "sha256_before": "adf8da5cd45d4fffdc644f7a03b402ca25cdd7d09e9dcca708d050001b794658",
+      "sha256_after": "adf8da5cd45d4fffdc644f7a03b402ca25cdd7d09e9dcca708d050001b794658",
+      "unchanged": true,
+      "transport": "shared CLI/backend actual Abaqus Python child",
+      "inventory": {
+        "read_only": true,
+        "odb": "H:\\STAGE7_20261003\\S7_E2_X\\S7_E2_X.odb",
+        "steps": [
+          {
+            "frames": 11,
+            "history_regions": [
+              {
+                "outputs": [
+                  "ALLAE",
+                  "ALLDMD",
+                  "ALLFD",
+                  "ALLIE",
+                  "ALLKE",
+                  "ALLPD",
+                  "ALLSE",
+                  "ALLVD",
+                  "ALLWK",
+                  "ETOTAL"
+                ],
+                "name": "Assembly Assembly-1"
+              },
+              {
+                "outputs": [
+                  "RF1",
+                  "RF2",
+                  "RF3",
+                  "RM1",
+                  "RM2",
+                  "RM3"
+                ],
+                "name": "Node PART-1-1.9707"
+              },
+              {
+                "outputs": [
+                  "RF1",
+                  "RF2",
+                  "RF3",
+                  "RM1",
+                  "RM2",
+                  "RM3",
+                  "U1",
+                  "U2",
+                  "U3",
+                  "UR1",
+                  "UR2",
+                  "UR3"
+                ],
+                "name": "Node PART-1-1.9712"
+              }
+            ],
+            "name": "COMPRESSION",
+            "latest_field_keys": [
+              "COPEN    General_Contact_Domain",
+              "CPRESS     General_Contact_Domain",
+              "CSDMG General_Contact_Domain",
+              "CSHEARMAG  General_Contact_Domain",
+              "CSLIP1   General_Contact_Domain",
+              "CSLIP2   General_Contact_Domain",
+              "CSLIPEQ  General_Contact_Domain",
+              "CSQUADSCRT General_Contact_Domain",
+              "CSTATUS  General_Contact_Domain",
+              "DAMAGEC",
+              "PEEQ",
+              "U",
+              "UR"
+            ]
+          }
+        ],
+        "evidence_path": "D:\\ai_abaqus\\agent_integrations\\abaqus_runtime\\probe-fccff9f81b194c6e9c4772741c2bb6db-result.json",
+        "launcher_returncode": 0
+      },
+      "peak": {
+        "latest_U": 0.10000122338533401,
+        "peak_field_time": 0.01600012741982937,
+        "nonfinite": 0,
+        "screen_confirmed": true,
+        "history_regions": [
+          "Node PART-1-1.9712"
+        ],
+        "friction_contribution": "NOT_SEPARATED_BY_THIS_GENERIC_PROBE",
+        "candidate_time": 0.016840005293488503,
+        "available_energy_regions": [
+          "Assembly Assembly-1"
+        ],
+        "displacement_continues": true,
+        "force_aggregation": "abs(sum signed RF)",
+        "odb": "H:\\STAGE7_20261003\\S7_E2_X\\S7_E2_X.odb",
+        "stable_supported": true,
+        "axis": "X",
+        "read_only": true,
+        "peak_status": "PEAK_VALID",
+        "postpeak_drop": 0.17746073708091029,
+        "field_requests_unavailable": [],
+        "energy_region": "Assembly Assembly-1",
+        "duplicate_points": 0,
+        "usable_peak": true,
+        "latest_time": 0.02000012993812561,
+        "provisional_requires_explicit_use_policy": true,
+        "U_peak": 0.07086438685655594,
+        "candidate_index": 1684,
+        "quality_reasons": [],
+        "area_fractions": "NOT_COMPUTED_REQUIRES_GEOMETRIC_WEIGHTS",
+        "unexpected_unpaired": 0,
+        "energy_keys": [
+          "ALLAE",
+          "ALLDMD",
+          "ALLIE",
+          "ALLKE",
+          "ALLVD",
+          "ETOTAL"
+        ],
+        "paired_points": 2001,
+        "negative_tail_trend": true,
+        "step": "COMPRESSION",
+        "strict_confirmed": true,
+        "RF_peak": 58360.0703125,
+        "peak_field_time_offset": 0.0008398778736591339,
+        "latest_RF": 48003.44921875,
+        "field_summary": {
+          "CSDMG General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 0.0,
+            "max": 0.8821174502372742,
+            "p95": 0.828391432762146,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 0.3019845256272359
+          },
+          "DAMAGEC": {
+            "count": 8000,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 0.0,
+            "max": 0.2711465358734131,
+            "p95": 0.21424579694867132,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 0.12783668542281884
+          },
+          "CSHEARMAG  General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 0.0,
+            "max": 18.399343490600586,
+            "p95": 13.044679546356194,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 7.784853834589954
+          },
+          "CPRESS     General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 1.3896675109863281,
+            "max": 73.84217071533203,
+            "p95": 50.19910717010498,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 27.992010785527313
+          },
+          "CSLIP2   General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": -0.0031152137089520693,
+            "max": 0.003121354151517153,
+            "p95": 0.00046077237784629605,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": -2.564237177878772e-06
+          },
+          "CSLIPEQ  General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 0.0,
+            "max": 0.004471969790756702,
+            "p95": 0.0015537998930085447,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 0.0002589813652114228
+          },
+          "CSQUADSCRT General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 0.0,
+            "max": 1.0,
+            "p95": 1.0,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 0.500511502918136
+          },
+          "CSLIP1   General_Contact_Domain": {
+            "count": 1730,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": -0.003037083428353071,
+            "max": 0.0027589870151132345,
+            "p95": 0.0006520659633679302,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": -7.308416105295926e-06
+          },
+          "PEEQ": {
+            "count": 8000,
+            "scalarization": "scalar unchanged; vector/tensor Euclidean data norm",
+            "nonfinite": 0,
+            "min": 0.0,
+            "max": 0.0006172059220261872,
+            "p95": 0.00044020554196322337,
+            "weighting": "unweighted output point count; NOT area or volume weighted",
+            "mean": 0.0002497520388640959
+          }
+        },
+        "candidate_RF": 58360.0703125,
+        "unordered_points": 0,
+        "postpeak_tail_slope": -384022.1510063124,
+        "candidate_U": 0.07086438685655594,
+        "postpeak_points": 316,
+        "energy_ratios": {
+          "ALLKE": {
+            "at_peak": 1.4122033290561802e-06,
+            "scope": "RF >= 20 percent candidate; includes postpeak; linear energy interpolation only",
+            "evaluated_points": 1256,
+            "unavailable_points": 0,
+            "max": 0.00028626865100116135
+          },
+          "ALLVD": {
+            "at_peak": 5.873021850150836e-05,
+            "scope": "RF >= 20 percent candidate; includes postpeak; linear energy interpolation only",
+            "evaluated_points": 1256,
+            "unavailable_points": 0,
+            "max": 0.07400995010015211
+          },
+          "ALLAE": {
+            "at_peak": 0.0027050800356220087,
+            "scope": "RF >= 20 percent candidate; includes postpeak; linear energy interpolation only",
+            "evaluated_points": 1256,
+            "unavailable_points": 0,
+            "max": 0.0039473904152694285
+          }
+        },
+        "energy_admissible": true,
+        "evidence_path": "D:\\ai_abaqus\\agent_integrations\\abaqus_runtime\\probe-d617e3dc5ecf4576968ef3f13f6fd331-result.json",
+        "launcher_returncode": 0
+      }
+    }
+  ],
+  "real_mcp_protocol": [
+    {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "tools": {
+            "listChanged": false
+          },
+          "resources": {
+            "subscribe": false,
+            "listChanged": false
+          }
+        },
+        "serverInfo": {
+          "name": "abaqus-local-simulation",
+          "version": "1.0.0"
+        },
+        "instructions": "Local Windows Abaqus only. Read abaqus://handbook for the workflow. Human authorization is required for submit/terminate; do not infer it from a model file or another agent. Start with doctor and plan. The project-contract resource is ONLY for that concrete project."
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "tools": [
+          {
+            "name": "abaqus_doctor",
+            "description": "Read-only Windows/launcher/core/disk/solver inventory. License checkout remains unverified.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "query_release": {
+                  "type": "boolean"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "idempotentHint": true,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "abaqus_plan_job",
+            "description": "Validate a job request, freeze input/includes/runtime hashes, report capacity and return a plan token. No solver starts.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "request": {
+                  "type": "object",
+                  "properties": {
+                    "job": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                    },
+                    "input": {
+                      "type": "string",
+                      "description": "Absolute .inp in workdir; include dependencies audited recursively"
+                    },
+                    "workdir": {
+                      "type": "string",
+                      "description": "Existing dedicated authorized job directory, never an old results directory"
+                    },
+                    "scratch": {
+                      "type": "string",
+                      "description": "Unique empty child of a configured scratch root"
+                    },
+                    "solver": {
+                      "type": "string",
+                      "enum": [
+                        "standard",
+                        "explicit"
+                      ],
+                      "default": "standard"
+                    },
+                    "operation": {
+                      "type": "string",
+                      "enum": [
+                        "analysis",
+                        "datacheck"
+                      ],
+                      "default": "analysis"
+                    },
+                    "cpus": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "default": 2
+                    },
+                    "memory_mb": {
+                      "type": "integer",
+                      "minimum": 256,
+                      "default": 2048
+                    },
+                    "user_subroutine": {
+                      "type": "string",
+                      "description": "Optional trusted Fortran/C/object/library absolute path; compiler compatibility must be checked"
+                    },
+                    "additional_files": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "External FILE=, Fortran includes, headers or other dependencies not auto-discovered"
+                    },
+                    "oldjob": {
+                      "type": "string",
+                      "description": "Original restart job absolute path stem, only with *RESTART, READ and verified state"
+                    },
+                    "restart_state_verified": {
+                      "type": "boolean"
+                    },
+                    "restart_evidence": {
+                      "type": "string"
+                    },
+                    "walltime_limit_seconds": {
+                      "type": "integer",
+                      "minimum": 30,
+                      "default": 5400
+                    },
+                    "terminate_at_walltime": {
+                      "type": "boolean",
+                      "default": false,
+                      "description": "Set true only with human approval to stop at budget"
+                    },
+                    "stop_after_confirmed_peak": {
+                      "type": "boolean",
+                      "default": false,
+                      "description": "Set true only with human approval for a strict confirmed peak-stop and explicit live probe"
+                    },
+                    "probe_interval_seconds": {
+                      "type": "integer",
+                      "minimum": 10,
+                      "default": 60
+                    },
+                    "probe": {
+                      "type": "object",
+                      "properties": {
+                        "odb": {
+                          "type": "string",
+                          "description": "Absolute existing ODB path inside configured roots"
+                        },
+                        "mode": {
+                          "type": "string",
+                          "enum": [
+                            "inventory",
+                            "peak"
+                          ],
+                          "default": "inventory"
+                        },
+                        "step": {
+                          "type": "string",
+                          "description": "Exact ODB step name; mandatory for peak"
+                        },
+                        "history_regions": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "minItems": 1,
+                          "description": "Exact loaded RP or aligned top-node regions, discovered by inventory; never guessed"
+                        },
+                        "axis": {
+                          "type": "string",
+                          "enum": [
+                            "X",
+                            "Y",
+                            "Z"
+                          ]
+                        },
+                        "solver": {
+                          "type": "string",
+                          "enum": [
+                            "standard",
+                            "explicit"
+                          ],
+                          "default": "standard"
+                        },
+                        "energy_region": {
+                          "type": "string",
+                          "description": "Exact global energy region, mandatory if ALLIE exists in multiple scopes"
+                        },
+                        "rules": {
+                          "type": "object",
+                          "properties": {
+                            "confirmed_drop": {
+                              "type": "number"
+                            },
+                            "screen_drop": {
+                              "type": "number"
+                            },
+                            "stable_drop": {
+                              "type": "number"
+                            },
+                            "stable_points": {
+                              "type": "number"
+                            },
+                            "minimum_postpeak_points": {
+                              "type": "number"
+                            },
+                            "displacement_tolerance": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [],
+                          "additionalProperties": false
+                        },
+                        "energy_gates": {
+                          "type": "object",
+                          "properties": {
+                            "ALLKE": {
+                              "type": "number",
+                              "exclusiveMinimum": 0
+                            },
+                            "ALLAE": {
+                              "type": "number",
+                              "exclusiveMinimum": 0
+                            },
+                            "ALLSD": {
+                              "type": "number",
+                              "exclusiveMinimum": 0
+                            }
+                          },
+                          "required": [],
+                          "additionalProperties": false
+                        },
+                        "require_stabilization_energy": {
+                          "type": "boolean"
+                        },
+                        "fields": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "description": "Exact field names or supported base prefixes; statistics are NOT area weighted"
+                        }
+                      },
+                      "required": [
+                        "step",
+                        "history_regions",
+                        "axis"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "job",
+                    "input",
+                    "workdir",
+                    "scratch"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "request"
+              ],
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "idempotentHint": true,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "abaqus_submit_job",
+            "description": "Start ONE sealed managed job only with direct human authorization for exact job/controls/resources/stop policy. No automatic retries.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "request": {
+                  "type": "object",
+                  "properties": {
+                    "job": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$"
+                    },
+                    "input": {
+                      "type": "string",
+                      "description": "Absolute .inp in workdir; include dependencies audited recursively"
+                    },
+                    "workdir": {
+                      "type": "string",
+                      "description": "Existing dedicated authorized job directory, never an old results directory"
+                    },
+                    "scratch": {
+                      "type": "string",
+                      "description": "Unique empty child of a configured scratch root"
+                    },
+                    "solver": {
+                      "type": "string",
+                      "enum": [
+                        "standard",
+                        "explicit"
+                      ],
+                      "default": "standard"
+                    },
+                    "operation": {
+                      "type": "string",
+                      "enum": [
+                        "analysis",
+                        "datacheck"
+                      ],
+                      "default": "analysis"
+                    },
+                    "cpus": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "default": 2
+                    },
+                    "memory_mb": {
+                      "type": "integer",
+                      "minimum": 256,
+                      "default": 2048
+                    },
+                    "user_subroutine": {
+                      "type": "string",
+                      "description": "Optional trusted Fortran/C/object/library absolute path; compiler compatibility must be checked"
+                    },
+                    "additional_files": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "External FILE=, Fortran includes, headers or other dependencies not auto-discovered"
+                    },
+                    "oldjob": {
+                      "type": "string",
+                      "description": "Original restart job absolute path stem, only with *RESTART, READ and verified state"
+                    },
+                    "restart_state_verified": {
+                      "type": "boolean"
+                    },
+                    "restart_evidence": {
+                      "type": "string"
+                    },
+                    "walltime_limit_seconds": {
+                      "type": "integer",
+                      "minimum": 30,
+                      "default": 5400
+                    },
+                    "terminate_at_walltime": {
+                      "type": "boolean",
+                      "default": false,
+                      "description": "Set true only with human approval to stop at budget"
+                    },
+                    "stop_after_confirmed_peak": {
+                      "type": "boolean",
+                      "default": false,
+                      "description": "Set true only with human approval for a strict confirmed peak-stop and explicit live probe"
+                    },
+                    "probe_interval_seconds": {
+                      "type": "integer",
+                      "minimum": 10,
+                      "default": 60
+                    },
+                    "probe": {
+                      "type": "object",
+                      "properties": {
+                        "odb": {
+                          "type": "string",
+                          "description": "Absolute existing ODB path inside configured roots"
+                        },
+                        "mode": {
+                          "type": "string",
+                          "enum": [
+                            "inventory",
+                            "peak"
+                          ],
+                          "default": "inventory"
+                        },
+                        "step": {
+                          "type": "string",
+                          "description": "Exact ODB step name; mandatory for peak"
+                        },
+                        "history_regions": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "minItems": 1,
+                          "description": "Exact loaded RP or aligned top-node regions, discovered by inventory; never guessed"
+                        },
+                        "axis": {
+                          "type": "string",
+                          "enum": [
+                            "X",
+                            "Y",
+                            "Z"
+                          ]
+                        },
+                        "solver": {
+                          "type": "string",
+                          "enum": [
+                            "standard",
+                            "explicit"
+                          ],
+                          "default": "standard"
+                        },
+                        "energy_region": {
+                          "type": "string",
+                          "description": "Exact global energy region, mandatory if ALLIE exists in multiple scopes"
+                        },
+                        "rules": {
+                          "type": "object",
+                          "properties": {
+                            "confirmed_drop": {
+                              "type": "number"
+                            },
+                            "screen_drop": {
+                              "type": "number"
+                            },
+                            "stable_drop": {
+                              "type": "number"
+                            },
+                            "stable_points": {
+                              "type": "number"
+                            },
+                            "minimum_postpeak_points": {
+                              "type": "number"
+                            },
+                            "displacement_tolerance": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [],
+                          "additionalProperties": false
+                        },
+                        "energy_gates": {
+                          "type": "object",
+                          "properties": {
+                            "ALLKE": {
+                              "type": "number",
+                              "exclusiveMinimum": 0
+                            },
+                            "ALLAE": {
+                              "type": "number",
+                              "exclusiveMinimum": 0
+                            },
+                            "ALLSD": {
+                              "type": "number",
+                              "exclusiveMinimum": 0
+                            }
+                          },
+                          "required": [],
+                          "additionalProperties": false
+                        },
+                        "require_stabilization_energy": {
+                          "type": "boolean"
+                        },
+                        "fields": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "description": "Exact field names or supported base prefixes; statistics are NOT area weighted"
+                        }
+                      },
+                      "required": [
+                        "step",
+                        "history_regions",
+                        "axis"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "job",
+                    "input",
+                    "workdir",
+                    "scratch"
+                  ],
+                  "additionalProperties": false
+                },
+                "plan_token": {
+                  "type": "string"
+                },
+                "authorize": {
+                  "type": "boolean"
+                },
+                "authorization_note": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "request",
+                "plan_token",
+                "authorize",
+                "authorization_note"
+              ],
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": false,
+              "destructiveHint": false,
+              "idempotentHint": false,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "abaqus_job_status",
+            "description": "Read managed status and corroborate worker/launcher identity plus raw logs; stale cache is not RUNNING.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "job_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "job_id"
+              ],
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "idempotentHint": true,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "abaqus_terminate_job",
+            "description": "Request termination of ONE live managed job; requires separate stop authorization. Does not delete files or kill all solvers.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "job_id": {
+                  "type": "string"
+                },
+                "authorize": {
+                  "type": "boolean"
+                },
+                "authorization_note": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "job_id",
+                "authorize",
+                "authorization_note"
+              ],
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": false,
+              "destructiveHint": true,
+              "idempotentHint": false,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "abaqus_restart_audit",
+            "description": "Read Standard/Explicit restart file inventory. File presence is not validated restart state or increment.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "directory": {
+                  "type": "string"
+                },
+                "job": {
+                  "type": "string"
+                },
+                "solver": {
+                  "type": "string",
+                  "enum": [
+                    "standard",
+                    "explicit"
+                  ]
+                }
+              },
+              "required": [
+                "directory",
+                "job"
+              ],
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "idempotentHint": true,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "abaqus_probe_odb",
+            "description": "Read-only ODB inventory or explicit-region RF/U peak + energy + nearest field summary. Writes new audit JSON only; does not edit the ODB.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "request": {
+                  "type": "object",
+                  "properties": {
+                    "odb": {
+                      "type": "string",
+                      "description": "Absolute existing ODB path inside configured roots"
+                    },
+                    "mode": {
+                      "type": "string",
+                      "enum": [
+                        "inventory",
+                        "peak"
+                      ],
+                      "default": "inventory"
+                    },
+                    "step": {
+                      "type": "string",
+                      "description": "Exact ODB step name; mandatory for peak"
+                    },
+                    "history_regions": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "minItems": 1,
+                      "description": "Exact loaded RP or aligned top-node regions, discovered by inventory; never guessed"
+                    },
+                    "axis": {
+                      "type": "string",
+                      "enum": [
+                        "X",
+                        "Y",
+                        "Z"
+                      ]
+                    },
+                    "solver": {
+                      "type": "string",
+                      "enum": [
+                        "standard",
+                        "explicit"
+                      ],
+                      "default": "standard"
+                    },
+                    "energy_region": {
+                      "type": "string",
+                      "description": "Exact global energy region, mandatory if ALLIE exists in multiple scopes"
+                    },
+                    "rules": {
+                      "type": "object",
+                      "properties": {
+                        "confirmed_drop": {
+                          "type": "number"
+                        },
+                        "screen_drop": {
+                          "type": "number"
+                        },
+                        "stable_drop": {
+                          "type": "number"
+                        },
+                        "stable_points": {
+                          "type": "number"
+                        },
+                        "minimum_postpeak_points": {
+                          "type": "number"
+                        },
+                        "displacement_tolerance": {
+                          "type": "number"
+                        }
+                      },
+                      "required": [],
+                      "additionalProperties": false
+                    },
+                    "energy_gates": {
+                      "type": "object",
+                      "properties": {
+                        "ALLKE": {
+                          "type": "number",
+                          "exclusiveMinimum": 0
+                        },
+                        "ALLAE": {
+                          "type": "number",
+                          "exclusiveMinimum": 0
+                        },
+                        "ALLSD": {
+                          "type": "number",
+                          "exclusiveMinimum": 0
+                        }
+                      },
+                      "required": [],
+                      "additionalProperties": false
+                    },
+                    "require_stabilization_energy": {
+                      "type": "boolean"
+                    },
+                    "fields": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "Exact field names or supported base prefixes; statistics are NOT area weighted"
+                    }
+                  },
+                  "required": [
+                    "odb"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "request"
+              ],
+              "additionalProperties": false
+            },
+            "annotations": {
+              "readOnlyHint": false,
+              "destructiveHint": false,
+              "idempotentHint": false,
+              "openWorldHint": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"latest_U\": 0.13651329278945923, \"peak_field_time\": 0.00800003670156002, \"nonfinite\": 0, \"screen_confirmed\": true, \"history_regions\": [\"Node PART-1-1.9712\"], \"friction_contribution\": \"NOT_SEPARATED_BY_THIS_GENERIC_PROBE\", \"candidate_time\": 0.008360021747648716, \"available_energy_regions\": [\"Assembly Assembly-1\"], \"displacement_continues\": true, \"force_aggregation\": \"abs(sum signed RF)\", \"odb\": \"H:\\\\STAGE7_20261003\\\\S7_E1_X\\\\S7_E1_X.odb\", \"stable_supported\": true, \"axis\": \"X\", \"read_only\": true, \"peak_status\": \"PEAK_VALID\", \"postpeak_drop\": 0.41686492910959283, \"field_requests_unavailable\": [], \"energy_region\": \"Assembly Assembly-1\", \"duplicate_points\": 0, \"usable_peak\": true, \"latest_time\": 0.012000074610114098, \"provisional_requires_explicit_use_policy\": true, \"U_peak\": 0.06979730725288391, \"candidate_index\": 1672, \"quality_reasons\": [], \"area_fractions\": \"NOT_COMPUTED_REQUIRES_GEOMETRIC_WEIGHTS\", \"unexpected_unpaired\": 0, \"energy_keys\": [\"ALLAE\", \"ALLDMD\", \"ALLIE\", \"ALLKE\", \"ALLVD\", \"ETOTAL\"], \"paired_points\": 2401, \"negative_tail_trend\": true, \"step\": \"COMPRESSION\", \"strict_confirmed\": true, \"RF_peak\": 57818.39453125, \"peak_field_time_offset\": 0.0003599850460886955, \"latest_RF\": 33812.0546875, \"field_summary\": {\"CSDMG General_Contact_Domain\": {\"count\": 1730, \"scalarization\": \"scalar unchanged; vector/tensor Euclidean data norm\", \"nonfinite\": 0, \"min\": 0.0, \"max\": 0.880185067653656, \"p95\": 0.8264920711517334, \"weighting\": \"unweighted output point count; NOT area or volume weighted\", \"mean\": 0.30120954831599156}, \"DAMAGEC\": {\"count\": 8000, \"scalarization\": \"scalar unchanged; vector/tensor Euclidean data norm\", \"nonfinite\": 0, \"min\": 0.0, \"max\": 0.27319228649139404, \"p95\": 0.21697611212730405, \"weighting\": \"unweighted output point count; NOT area or volume weighted\", \"mean\": 0.12888248857459167}, \"CSHEARMAG  General_Contact_Domain\": {\"count\": 1730, \"scalarization\": \"scalar unchanged; vector/tensor Euclidean data norm\", \"nonfinite\": 0, \"min\": 0.0, \"max\": 18.165781021118164, \"p95\": 12.86653904914856, \"weighting\": \"unweighted output point count; NOT area or volume weighted\", \"mean\": 7.628238933550657}, \"CPRESS     General_Contact_Domain\": {\"count\": 1730, \"scalarization\": \"scalar unchanged; vector/tensor Euclidean data norm\", \"nonfinite\": 0, \"min\": 1.3063011169433594, \"max\": 73.88041687011719, \"p95\": 50.17042942047119, \"weighting\": \"unweighted output point count; NOT area or volume weighted\", \"mean\": 27.654867605115637}, \"CSLIP2   General_Contact_Domain\": {\"count\": 1730, \"scalarization\": \"scalar unchanged; vector/tensor Euclidean data norm\", \"nonfinite\": 0, \"min\": -0.0031121238134801388, \"max\": 0.0032079368829727173, \"p95\": 0.0004650068454793654, \"weighting\": \"unweighted output point count; NOT area or volume weighted\", \"mean\": -1.6782422370060759e-06}, \"CSLIPEQ  General_Contact_Domain\": {\"count\": 1730, \"scalarization\": \"scalar unchanged; vector/tensor Euclidean data norm\", \"nonfinite\": 0, \"min\": 0.0, \"max\": 0.004567091353237629, \"p95\": 0.0015633036848157627, \"weighting\": \"unweighted output point count; NOT area or volume weighted\", \"mean\": 0.0002662281079173847}, \"CSQUADSCRT General_Contact_Domain\": {\"count\": 1730, \"scalarization\": \"scalar unchanged; vector/tensor Euclidean data norm\", \"nonfinite\": 0, \"min\": 0.0, \"max\": 1.0, \"p95\": 1.0, \"weighting\": \"unweighted output point count; NOT area or volume weighted\", \"mean\": 0.5003790394333056}, \"CSLIP1   General_Contact_Domain\": {\"count\": 1730, \"scalarization\": \"scalar unchanged; vector/tensor Euclidean data norm\", \"nonfinite\": 0, \"min\": -0.003112947102636099, \"max\": 0.0027769224252551794, \"p95\": 0.0006455705268308505, \"weighting\": \"unweighted output point count; NOT area or volume weighted\", \"mean\": -8.307586275375713e-06}, \"PEEQ\": {\"count\": 8000, \"scalarization\": \"scalar unchanged; vector/tensor Euclidean data norm\", \"nonfinite\": 0, \"min\": 0.0, \"max\": 0.0006237374618649483, \"p95\": 0.00044674451492028307, \"weighting\": \"unweighted output point count; NOT area or volume weighted\", \"mean\": 0.00025214224075434367}}, \"candidate_RF\": 57818.39453125, \"unordered_points\": 0, \"postpeak_tail_slope\": -369153.73398707417, \"candidate_U\": 0.06979730725288391, \"postpeak_points\": 728, \"energy_ratios\": {\"ALLKE\": {\"at_peak\": 8.822174637348715e-06, \"scope\": \"RF >= 20 percent candidate; includes postpeak; linear energy interpolation only\", \"evaluated_points\": 1659, \"unavailable_points\": 0, \"max\": 0.00025718128745467556}, \"ALLVD\": {\"at_peak\": 0.0005461795258680124, \"scope\": \"RF >= 20 percent candidate; includes postpeak; linear energy interpolation only\", \"evaluated_points\": 1659, \"unavailable_points\": 0, \"max\": 0.11965648918248505}, \"ALLAE\": {\"at_peak\": 0.0027117259712553187, \"scope\": \"RF >= 20 percent candidate; includes postpeak; linear energy interpolation only\", \"evaluated_points\": 1659, \"unavailable_points\": 0, \"max\": 0.004378119487735994}}, \"energy_admissible\": true, \"evidence_path\": \"D:\\\\ai_abaqus\\\\agent_integrations\\\\abaqus_runtime\\\\probe-51691f0193ec4092a2c0344542f744d6-result.json\", \"launcher_returncode\": 0}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  ],
+  "limitations": [
+    "Submission and authorization guards tested with mocks; NO new FE job or datacheck executed",
+    "NO new UMAT/UINTER compilation or binary restart continuation executed",
+    "Real solver license availability not proved by version or ODB reading",
+    "MCP protocol validated with an independent stdio client, not inside WorkBuddy UI",
+    "No automatic OS startup/reboot resume, model creation, parameter calibration or queue takeover"
+  ],
+  "scripts_sha256": {
+    "scripts\\abaqus_agent.py": "13946ef352aaed71042515b487530023fe7d683d7ee0d6075a930ad677f8c069",
+    "scripts\\build_package.py": "0ad381281c33fda139128c781693182a2be6ae09a741b75f7d3cb6ed172b4403",
+    "scripts\\history_peak.py": "be9d9bd9c5a3f770a79d24945e914764afd3f0ef4bfbe2ebe96b30a76053fabc",
+    "scripts\\job_worker.py": "542997ea943fe497737e05a1ebd249893241b210779917c7fa77e38a877e1730",
+    "scripts\\mcp_server.py": "41a4b60c11e6c57e391eebc4884b6324c85a68fd0e75055e961598f728315260",
+    "scripts\\odb_probe.py": "8c90bde7d0a05022077eee197c4d764673012afa8d8813ce51f3a803a17fd734"
+  }
+}
